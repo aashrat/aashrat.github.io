@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Roboto, arial, sans-serif;
-  background-color: #fbe3e8;
+  background-color: #fea49f;
 }
 
 a {
@@ -28,7 +28,7 @@ header {
   height: 350px;
   position: relative;
   padding-top: 5px;
-  color: #FFFFFF;
+  color: #fbaf08;
 }
 
 .dev-path {
@@ -44,10 +44,9 @@ header {
 .dev-name {
   margin-top: 0;
   font-size: 30px;
-  color: #ccc;
+  color: #fff;
   font-style: italic;
   text-align: center;
-  text-shadow: 1px 1px 5px #000;
   transition: all 0.2s ease-in-out 0s;
 }
 
@@ -92,8 +91,8 @@ nav ul::after {
 }
 
 .menu {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
+  background-color: rgba(0, 160, 160, 1);
+  color: #fbaf08;
   margin: 0;
   font-size: 12px;
 }
@@ -159,12 +158,12 @@ nav ul::after {
 
 #main-menu:checked + ul #submenu:checked ~ .submenu {
   animation: revealsubmenu 0.3s ease-in-out 0s forwards;
-  background-color: rgba(255, 165, 0, 0.8);
+  background-color: rgba(251, 175, 8, 1);
 }
 
 #submenu:checked ~ label {
   color: #000;
-  background-color: rgba(255, 165, 0, 0.8);
+  background-color: rgba(251, 175, 8, 1);
 }
 
 /*#main-menu:not(:checked) + ul #submenu:checked + .submenu {
@@ -234,7 +233,7 @@ nav li a,
 }
 
 .menu > li:first-child > label {
-  background-color: rgba(255, 165, 0, 0.8);
+  background-color: rgba(251, 175, 8, 1);
   color: #000;
   border-color: transparent;
 }
@@ -286,7 +285,7 @@ nav li a,
 
 nav .link:hover,
 nav .menu .current {
-  background-color: rgba(255, 165, 0, 0.8);
+  background-color: rgba(251, 175, 8, 1);
   color: #000;
   border-color: #000;
 }
