@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Roboto, arial, sans-serif;
-  background-color: #fec1bd;
+  background-color: #431c5d;
 }
 
 a {
@@ -22,13 +22,13 @@ a:hover {
 
 header {
   /*background-image: url("img/20151111_132242.jpg");*/
-  background-image: url("img/DSC08863-1.jpg");
+  background-image: url("HUDF.jpg");
   background-position: center;
   background-size: cover;
-  height: 100px;
+  height: 200px;
   position: relative;
   padding-top: 5px;
-  color: #101357;
+  color: #fff;
 }
 
 .dev-path {
@@ -37,14 +37,13 @@ header {
   clear: both;
   margin-top: 10px;
   margin-bottom: 10px;
-  text-shadow: 1px 1px 2px #fff;
   transition: all 0.2s ease-in-out 0s;
 }
 
 .dev-name {
   margin-top: 0;
   font-size: 30px;
-  color: #fff;
+  color: #000;
   font-style: italic;
   text-align: center;
   transition: all 0.2s ease-in-out 0s;
@@ -91,8 +90,8 @@ nav ul::after {
 }
 
 .menu {
-  background-color: rgba(0, 160, 160, 1);
-  color: #fbaf08;
+  background-color: rgba(224, 89, 21, 1);
+  color: #fff;
   margin: 0;
   font-size: 12px;
 }
@@ -158,12 +157,12 @@ nav ul::after {
 
 #main-menu:checked + ul #submenu:checked ~ .submenu {
   animation: revealsubmenu 0.3s ease-in-out 0s forwards;
-  background-color: rgba(0, 127, 79, 1);
+  background-color: rgba(224, 89, 21, 1);
 }
 
 #submenu:checked ~ label {
-  color: #fbaf08;
-  background-color: rgba(0, 127, 79, 1);
+  color: #fff;
+  background-color: rgba(223, 255, 0, 1);
 }
 
 /*#main-menu:not(:checked) + ul #submenu:checked + .submenu {
@@ -233,8 +232,8 @@ nav li a,
 }
 
 .menu > li:first-child > label {
-  background-color: rgba(0, 127, 79, 1);
-  color: #fbaf08;
+  background-color: rgba(224, 89, 21, 1);
+  color: #fff;
   border-color: transparent;
 }
 
@@ -285,7 +284,7 @@ nav li a,
 
 nav .link:hover,
 nav .menu .current {
-  background-color: rgba(0, 127, 79, 1);
+  background-color: rgba(224, 89, 21, 1);
   color: #000;
   border-color: #000;
 }
@@ -364,7 +363,7 @@ nav li.current a:hover {
 }
 
 .main > section {
-  background-color: #00a0a0;
+  background-color: #c2dde6;
   padding: 20px;
   width: 100%;
   margin-left: auto;
