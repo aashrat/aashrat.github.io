@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Roboto, arial, sans-serif;
-  background-color: #fea49f;
+  background-color: #fec1bd;
 }
 
 a {
@@ -28,7 +28,7 @@ header {
   height: 100px;
   position: relative;
   padding-top: 5px;
-  color: #fbaf08;
+  color: #101357;
 }
 
 .dev-path {
@@ -158,12 +158,12 @@ nav ul::after {
 
 #main-menu:checked + ul #submenu:checked ~ .submenu {
   animation: revealsubmenu 0.3s ease-in-out 0s forwards;
-  background-color: rgba(251, 175, 8, 1);
+  background-color: rgba(0, 127, 79, 1);
 }
 
 #submenu:checked ~ label {
-  color: #000;
-  background-color: rgba(251, 175, 8, 1);
+  color: #fbaf08;
+  background-color: rgba(0, 127, 79, 1);
 }
 
 /*#main-menu:not(:checked) + ul #submenu:checked + .submenu {
@@ -233,8 +233,8 @@ nav li a,
 }
 
 .menu > li:first-child > label {
-  background-color: rgba(251, 175, 8, 1);
-  color: #000;
+  background-color: rgba(0, 127, 79, 1);
+  color: #fbaf08;
   border-color: transparent;
 }
 
@@ -270,7 +270,7 @@ nav li a,
   .dropdown:hover .submenu {
     height: 240px;
     top: 22px;
-    color: #000;
+    color: #fff;
     transition: all 0.3s, height 0.8s;
   }
 
@@ -279,13 +279,13 @@ nav li a,
 .submenu li {
   text-align: left;
   padding: 3px 0;
-  color: #000;
+  color: #fff;
   border: 1px solid transparent;
 }
 
 nav .link:hover,
 nav .menu .current {
-  background-color: rgba(251, 175, 8, 1);
+  background-color: rgba(0, 127, 79, 1);
   color: #000;
   border-color: #000;
 }
@@ -326,8 +326,7 @@ nav li.current a:hover {
 .main {
   position: relative;
   color: #222;
-  /*text-shadow: 1px 1px 3px #fff;*/
-  text-shadow: 0px 0px 1px #fff;
+  /*text-shadow: 1px 1px 3px #fff;*/;
 }
 
 .main h1 {
@@ -365,7 +364,7 @@ nav li.current a:hover {
 }
 
 .main > section {
-  background-color: #ddd;
+  background-color: #00a0a0;
   padding: 20px;
   width: 100%;
   margin-left: auto;
@@ -439,7 +438,7 @@ nav li.current a:hover {
 footer p {
   text-align: center;
   margin: 0;
-  color: #888;
+  color: #fff;
   padding: 30px 20px;
 }
 
