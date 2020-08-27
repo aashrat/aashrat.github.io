@@ -21,7 +21,7 @@ a:hover {
 /* HEADER AREA STYLES */
 
 header {
-  background-image: url("HUDF.jpg");
+  background-image: url(images/"HUDF.jpg");
   background-position: center;
   background-size: cover;
   height: 200px;
